@@ -28,3 +28,9 @@ python3 ../generic-buy-now-pay-later-project-group-45/scripts/ranking.py --path 
 
 5. Run plots.ipynb to produce plots used in presentation and visualisation of final ranked merchants
 
+
+
+
+
+
+Overall Score(Individual's score): 54.5/60 
