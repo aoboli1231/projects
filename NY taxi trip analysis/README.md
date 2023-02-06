@@ -21,4 +21,5 @@ Then visit the `notebook` directory and run the files in order:
 
 
 Overall score: 19.5/30
+
 This project is poorly done as research goal is not complex enough, where exact costs calculation can be found on the website of these companies. 
