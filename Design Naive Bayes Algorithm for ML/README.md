@@ -25,3 +25,6 @@ Features:
 
 
 Source: https://archive.ics.uci.edu/ml/datasets/adult
+
+
+Overall score: 18.44/20
