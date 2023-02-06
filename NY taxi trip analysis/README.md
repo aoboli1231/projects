@@ -18,3 +18,7 @@ Then visit the `notebook` directory and run the files in order:
 5. `project_1_preprocessing.ipynb`: This notebook is used to preprocess raw data and join raw data with Sport and weather data. Filtered data will be stored in `data/curated` directory with ytaxi (yellow taxi) and HVFH(uber) folder
 6. `P1_Visualisation.ipynb`: The notebook is used to create visualisation for the trip data, plots are stored in `plot` directory
 7. `P1_model.ipynb`: The notebook is used to create model for Uber and Yellow taxi data with selected features, and predict on test data. This also includes visualisation for predictions, plots are stored in `plot` directory
+
+
+Overall score: 19.5/30
+This project is poorly done as research goal is not complex enough, where exact costs calculation can be found on the website of these companies. 
