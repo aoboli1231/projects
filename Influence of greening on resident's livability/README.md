@@ -1,9 +1,3 @@
-# comp20008-2021sm1a2
-Aobo Li 
-ID: 1172339
-Shu Yang
-ID: 1173967
-Xandrea Lee
-ID: 1179114
-Liangdongfang Xu
-ID: 1174154
+This project targets at how urban greening relates to understanding livability of communities in Victoria. Data used in this report are collected from public sources (ABS, Victoria State Goverment). 
+
+Simple visualisations were included for analysis
