@@ -1,0 +1,76 @@
+Greater Capital City        Number of Tweets Made
+------------------------  -----------------------
+2gmel(Greater Melbourne)                  2283562
+1gsyd(Greater Sydney)                     2204728
+3gbri(Greater Brisbane)                    859862
+5gper(Greater Perth)                       589375
+4gade(Greater Adelaide)                    464050
+8acte(Greater Canberra)                    202434
+6ghob(Greater Hobart)                       90762
+7gdar(Greater Darwin)                       46393
+9oter(Other Territory)                        160 
+
+Rank | Author ID           | Number of Tweets Made
+--------------------------------------------------
+#1   | 1498063511204761601 | 68477               
+#2   | 1089023364973219840 | 28128               
+#3   | 826332877457481728  | 27718               
+#4   | 1250331934242123776 | 25350               
+#5   | 1423662808311287813 | 21034               
+#6   | 1183144981252280322 | 20765               
+#7   | 1270672820792508417 | 20503               
+#8   | 820431428835885059  | 20063               
+#9   | 778785859030003712  | 19403               
+#10  | 1104295492433764353 | 18781               
+
+
+Rank | Author ID           | Number of Unique City Locations and #Tweets
+------------------------------------------------------------------------
+#1   | 1429984556451389440 | 8 (#1918 tweets - 1878gmel, 2gade, 13acte, 7gper, 10gsyd, 6gbri, 1ghob, 1gdar)
+#2   | 702290904460169216  | 8 (#1223 tweets - 263gmel, 128gade, 47acte, 235gbri, 42ghob, 21gdar, 333gsyd, 154gper)
+#3   | 17285408            | 8 (#1190 tweets - 1042gsyd, 40gbri, 23acte, 60gmel, 11ghob, 3gade, 4gdar, 7gper)
+#4   | 87188071            | 8 (#398 tweets - 28gade, 65gbri, 51gper, 114gsyd, 86gmel, 34acte, 15ghob, 5gdar)
+#5   | 1361519083          | 8 (#266 tweets - 36gmel, 193gdar, 18gsyd, 9gade, 1gper, 6acte, 2ghob, 1gbri)
+#6   | 502381727           | 8 (#250 tweets - 214gmel, 8gbri, 8ghob, 3gper, 4gade, 2gsyd, 1gdar, 10acte)
+#7   | 921197448885886977  | 8 (#208 tweets - 37gbri, 24gade, 28gper, 49gsyd, 58gmel, 7acte, 4ghob, 1gdar)
+#8   | 601712763           | 8 (#146 tweets - 44gsyd, 10acte, 39gmel, 1gdar, 14gper, 8ghob, 19gade, 11gbri)
+#9   | 2647302752          | 8 (#80 tweets - 32gbri, 3gdar, 3gade, 4gper, 4acte, 13gsyd, 16gmel, 5ghob)
+#10  | 322866759           | 8 (#45 tweets - 31acte, 4gsyd, 1gper, 4gmel, 1gade, 2gbri, 1ghob, 1gdar)
+
+
+Run time of 8 cores are:
+Runtime of the reading data: 228.00726342201233 seconds
+Runtime of the process data: 71.56603455543518 seconds
+Runtime of the script: 318.42096757888794 seconds
+Job ID           : 46019355
+Cluster          : spartan
+User/Project     : aobo/comp90024
+Nodes            : 2
+Wall-clock time  : 00:05:37 / 00:08:00
+
+Displaying overall resources usage from 2023-04-03 14:03:51 to 2023-04-03 14:09:28:
+
+NODE            CPU#        TOT%   ( USR   / SYS   / WIO   / IDLE  ) 
+
+spartan-bm103 : 
+                CPU# 1    : 93.0   (  86.3 /   6.7 /   0.0 /   7.0 ) 
+                CPU# 2    : 93.3   (  89.4 /   3.9 /   0.1 /   6.6 ) 
+                CPU# 3    : 95.5   (  91.6 /   3.9 /   0.1 /   4.4 ) 
+                CPU# 4    : 93.7   (  90.4 /   3.3 /   0.1 /   6.3 ) 
+
+spartan-bm104 : 
+                CPU# 5    : 93.8   (  90.6 /   3.2 /   0.0 /   6.2 ) 
+                CPU# 6    : 93.9   (  90.9 /   3.0 /   0.0 /   6.1 ) 
+                CPU# 7    : 93.7   (  89.9 /   3.8 /   0.3 /   6.0 ) 
+                CPU# 8    : 93.7   (  90.4 /   3.3 /   0.3 /   6.0 ) 
+
+
+Allocated CPUs            : 8    
+  CPUs with usage <25%    : 0    
+  CPUs with usage <50%    : 0    
+  CPUs with usage >50%    : 8    
+
+Memory used (RAM)         : 19.4%  [6354MB of 32768MB]
+
+--------------------------------------------
+
