@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# VS Code specific files
+.vscode/
+*.vscode/
+*.code-workspace
+
+# PyCharm specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Other
+*.pydevproject
+*.project
+*.DS_Store
+*.bak
+*~
+\#*\#
+out.log
+*.json

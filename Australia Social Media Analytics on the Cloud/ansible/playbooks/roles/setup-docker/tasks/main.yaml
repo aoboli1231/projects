@@ -1,0 +1,25 @@
+---
+ 
+- name: Install nfs-common package
+  become: yes
+  apt:
+    name: nfs-common
+    state: present
+
+- name: Create cloud directory
+  file:
+    path: ~/cloud
+    state: directory
+
+- name: Mount shared directory
+  become: yes
+  mount:
+    src: "{{localhost_ip}}:/home/ubuntu/data"
+    path: /home/ubuntu/data
+    fstype: nfs
+    opts: rw
+    state: mounted
+
+- name: add user to docker group
+  become: yes
+  shell: gpasswd -a {{ansible_user}} docker
