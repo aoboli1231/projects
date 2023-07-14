@@ -1,0 +1,2 @@
+sudo vim  /etc/haproxy/haproxy.cfg
+sudo systemctl restart haproxy
