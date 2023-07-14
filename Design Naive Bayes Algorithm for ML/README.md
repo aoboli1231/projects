@@ -28,3 +28,6 @@ Source: https://archive.ics.uci.edu/ml/datasets/adult
 
 
 Overall score: 18.44/20
+
+
+Tensorflow model was after the project's done for testing
