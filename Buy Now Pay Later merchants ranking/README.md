@@ -1,36 +1,50 @@
 # Generic Buy Now, Pay Later Project
 
 ## Group 45
-#### Team Member:
-Aobo Li, Jialiang Shen, Jiqiang Chen, Junkai Zhang, Ying Zhu
 
-**Research Goal:** The research goal is to help the BNPL company to find the best merchants to cooperate with by forecasting the expected revenue of each merchants in the following year. 
+### Team Members:
+- Aobo Li
+- Jialiang Shen
+- Jiqiang Chen
+- Junkai Zhang
+- Ying Zhu
 
-**Instruction:**
-Run the code in following order:
-1. Run download.py in script folder, command line in terminal should follow the format of:  
+### Research Goal:
+The research goal is to assist the Buy Now, Pay Later (BNPL) company in identifying the best merchants to partner with by forecasting the expected revenue of each merchant in the following year.
 
-python3 ../generic-buy-now-pay-later-project-group-45/scripts/download.py --path ../generic-buy-now-pay-later-project-group-45/data/tables
+### Instructions:
+To run this project, follow these steps:
 
-2. Run preprocess.py in script folder, command line in terminal should follow the format of: 
+1. **Download Data:** Execute the following command in the terminal to run the `download.py` script.
 
-python3 ../generic-buy-now-pay-later-project-group-45/scripts/preprocess.py --path ../generic-buy-now-pay-later-project-group-45/data/tables --output ../generic-buy-now-pay-later-project-group-45/data/curated
+    ```bash
+    python3 ../generic-buy-now-pay-later-project-group-45/scripts/download.py --path ../generic-buy-now-pay-later-project-group-45/data/tables
+    ```
 
-3. Run geoplot.ipynb to produce geospatial plot
+2. **Preprocess Data:** Execute the following command in the terminal to run the `preprocess.py` script.
 
-4. Run ranking.py in script folder, command line in terminal should follow the format of: 
+    ```bash
+    python3 ../generic-buy-now-pay-later-project-group-45/scripts/preprocess.py --path ../generic-buy-now-pay-later-project-group-45/data/tables --output ../generic-buy-now-pay-later-project-group-45/data/curated
+    ```
 
-python3 ../generic-buy-now-pay-later-project-group-45/scripts/ranking.py --path ../generic-buy-now-pay-later-project-group-45/data/curated dddd-dd-dd
+3. **Geospatial Plot:** Run `geoplot.ipynb` to produce the geospatial plot.
 
-(note: dddd-dd-dd is the most recent annual transaction data start date, can also put other dates if period of data do not exceed a year, e.g: most recent data end in 2022-08-28, then type in 2021-08-28)
+4. **Rank Merchants:** Execute the following command in the terminal to run the `ranking.py` script. Replace `dddd-dd-dd` with the most recent annual transaction data start date (e.g., `2021-08-28`).
 
-(note: ".." is the directory path of this project folder, which need to be modified according to your local repository.)
+    ```bash
+    python3 ../generic-buy-now-pay-later-project-group-45/scripts/ranking.py --path ../generic-buy-now-pay-later-project-group-45/data/curated dddd-dd-dd
+    ```
 
-5. Run plots.ipynb to produce plots used in presentation and visualisation of final ranked merchants
+5. **Visualize Results:** Run `plots.ipynb` to produce plots used in the presentation and visualization of the final ranked merchants.
+
+    > **Note:** Adjust the directory path `".."` in the above commands to match your local repository.
+
+### Contact:
+For further information or inquiries, feel free to email me at [aoboli2001@hotmail.com](mailto:aoboli2001@hotmail.com).
 
 
 
 
 
-
+##
 Overall Score(Individual's score): 54.5/60 
