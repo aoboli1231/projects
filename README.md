@@ -1,12 +1,19 @@
-## This folder contains selected projects completed during my University's study. 
+# University Projects Portfolio
 
+This repository is a collection of selected projects completed during my university studies. The projects encompass various areas including Data Analysis, Data Streaming, Parallel Programming, Machine Learning, and Business Analysis.
 
-Group project on Melbourne Research Cloud:
+## Projects
 
-[Australian Social Media Analysis](https://github.com/yijun-github/ccc)
+### [Australian Social Media Analysis](https://github.com/yijun-github/ccc)
+Conducted on Melbourne Research Cloud, this group project focuses on analyzing Australian social media data. Explore the [project repository](https://github.com/yijun-github/ccc) for detailed insights and information.
 
-Readme Files contains in all folder, including final report for each project (apart from the Naive Bayes Algorithm). 
+## Technologies and Tools
+- Data Analysis: Python, Pandas, Numpy
+- Parallel Programming: MPI4py
+- Machine Learning: TensorFlow, Scikit-learn, MLlib
 
-Projects covers Data Analysis, Data Streaming, Parallel programming, Machine learning and Business Analysis. 
+## Explore Further
+Detailed information about each project, including objectives, methodologies, and results, can be found in the README.md file within each project folder.
 
-For further information, feel free to email at aoboli2001@hotmail.com. 
+## Contact
+For further information or inquiries, feel free to email me at [aoboli2001@hotmail.com](mailto:aoboli2001@hotmail.com).
